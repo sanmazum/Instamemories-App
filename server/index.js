@@ -14,7 +14,7 @@ app.use(cors());
 app.use("/posts", postRoutes);
 
 const CONNECTION_URL =
-  "mongodb+srv://instamemories:jN7uWVlg1E1vB4yM@cluster0.qgtru.mongodb.net";
+  "mongodb+srv://instamemories:jN7uWVlg1E1vB4yM@cluster0.qgtru.mongodb.net/";
 const PORT = process.env.PORT || 5000;
 
 mongoose
